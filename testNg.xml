@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Parallel test suite" parallel="classes" thread-count="2">
-    <test name="Test 1">
+    <test name="Grid_test_refi_calc">
         <classes>
             <class name="selenium_grid.SeleniumGrid_Chrome1"/>
             <class name="selenium_grid.SeleniumGrid_Chrome2"/>
