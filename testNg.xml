@@ -1,12 +1,13 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Parallel test suite" parallel="classes" thread-count="2">
-    <test name="Grid_test_refi_calc">
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="automation_test"   verbose="1" parallel="classes">
+    <test name="selenium_Grid" >
         <classes>
-            <class name="selenium_grid.SeleniumGrid_Chrome1"/>
+           <class name="selenium_grid.SeleniumGrid_Chrome1"/>
             <class name="selenium_grid.SeleniumGrid_Chrome2"/>
             <class name="selenium_grid.SeleniumGrid_Firefox"/>
-
+            <class name="selenium_grid.SeleniumGrid_Chrome3"/>
         </classes>
     </test>
 </suite>
-

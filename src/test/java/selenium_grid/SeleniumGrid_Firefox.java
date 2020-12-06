@@ -9,7 +9,8 @@ public class SeleniumGrid_Firefox {
 
     @Test
     public void RunInFirefox() {
-        driver = TestEnvironment.selectTestEnvironment();
+       driver = TestEnvironment.selectTestEnvironment();
+        //TestEnvironment.selectTestEnvironment();
         driver.get("https://www.amazon.com/");
         System.out.println(driver.getTitle());
         driver.quit();

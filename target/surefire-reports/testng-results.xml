@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-26T11:35:01 EST" name="Parallel test suite" finished-at="2020-11-26T11:36:36 EST" duration-ms="94524">
+  <suite started-at="2020-12-06T14:52:06 EST" name="automation_test" finished-at="2020-12-06T14:54:03 EST" duration-ms="116996">
     <groups>
     </groups>
-    <test started-at="2020-11-26T11:35:01 EST" name="Test 1" finished-at="2020-11-26T11:36:36 EST" duration-ms="94524">
+    <test started-at="2020-12-06T14:52:06 EST" name="selenium_Grid" finished-at="2020-12-06T14:54:03 EST" duration-ms="116996">
       <class name="selenium_grid.SeleniumGrid_Firefox">
-        <test-method signature="RunInFirefox()[pri:0, instance:selenium_grid.SeleniumGrid_Firefox@77be656f]" started-at="2020-11-26T11:36:22 EST" name="RunInFirefox" finished-at="2020-11-26T11:36:36 EST" duration-ms="13491" status="PASS">
+        <test-method signature="RunInFirefox()[pri:0, instance:selenium_grid.SeleniumGrid_Firefox@8b96fde]" started-at="2020-12-06T14:52:06 EST" name="RunInFirefox" finished-at="2020-12-06T14:53:36 EST" duration-ms="90140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunInFirefox -->
       </class> <!-- selenium_grid.SeleniumGrid_Firefox -->
+      <class name="selenium_grid.SeleniumGrid_Chrome3">
+        <test-method signature="RunInChrome1()[pri:0, instance:selenium_grid.SeleniumGrid_Chrome3@2d2e5f00]" started-at="2020-12-06T14:52:06 EST" name="RunInChrome1" finished-at="2020-12-06T14:53:49 EST" duration-ms="103359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunInChrome1 -->
+      </class> <!-- selenium_grid.SeleniumGrid_Chrome3 -->
       <class name="selenium_grid.SeleniumGrid_Chrome2">
-        <test-method signature="RunInChrome1()[pri:0, instance:selenium_grid.SeleniumGrid_Chrome2@797badd3]" started-at="2020-11-26T11:35:01 EST" name="RunInChrome1" finished-at="2020-11-26T11:36:22 EST" duration-ms="80824" status="PASS">
+        <test-method signature="RunInChrome1()[pri:0, instance:selenium_grid.SeleniumGrid_Chrome2@15bb6bea]" started-at="2020-12-06T14:52:06 EST" name="RunInChrome1" finished-at="2020-12-06T14:53:30 EST" duration-ms="84375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunInChrome1 -->
       </class> <!-- selenium_grid.SeleniumGrid_Chrome2 -->
       <class name="selenium_grid.SeleniumGrid_Chrome1">
-        <test-method signature="RunInChrome()[pri:0, instance:selenium_grid.SeleniumGrid_Chrome1@646be2c3]" started-at="2020-11-26T11:35:01 EST" name="RunInChrome" finished-at="2020-11-26T11:36:25 EST" duration-ms="83941" status="PASS">
+        <test-method signature="RunInChrome()[pri:0, instance:selenium_grid.SeleniumGrid_Chrome1@145eaa29]" started-at="2020-12-06T14:52:06 EST" name="RunInChrome" finished-at="2020-12-06T14:54:03 EST" duration-ms="116955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RunInChrome -->
       </class> <!-- selenium_grid.SeleniumGrid_Chrome1 -->
-    </test> <!-- Test 1 -->
-  </suite> <!-- Parallel test suite -->
+    </test> <!-- selenium_Grid -->
+  </suite> <!-- automation_test -->
 </testng-results>

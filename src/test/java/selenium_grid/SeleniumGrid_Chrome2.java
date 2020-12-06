@@ -11,7 +11,8 @@ public class SeleniumGrid_Chrome2 {
     @Test
     public void RunInChrome1() {
         WebDriverManager.chromedriver().setup();
-        driver = TestEnvironment.selectTestEnvironment();
+       driver = TestEnvironment.selectTestEnvironment();
+        //TestEnvironment.selectTestEnvironment();
         driver.get("https://www.google.com/");
         System.out.println(driver.getTitle());
         driver.quit();

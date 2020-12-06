@@ -1,0 +1,5 @@
+2020-12-06 14:52:16.446 [TestNG-test=selenium_Grid-2][11844] INFO  utilities.TestEnvironment - execute test in local
+2020-12-06 14:52:16.446 [TestNG-test=selenium_Grid-4][11844] INFO  utilities.TestEnvironment - execute test in local
+2020-12-06 14:52:16.446 [TestNG-test=selenium_Grid-1][11844] INFO  utilities.TestEnvironment - execute test in local
+2020-12-06 14:52:16.446 [TestNG-test=selenium_Grid-3][11844] INFO  utilities.TestEnvironment - execute test in local
+2020-12-06 14:53:15.046 [TestNG-test=selenium_Grid-1][70444] INFO  utilities.TestEnvironment - execute test in local

@@ -17,8 +17,10 @@ public class TestEnvironment {
     private static final Logger LOGGER  = LogManager.getLogger(TestEnvironment.class);
 
     public static WebDriver selectTestEnvironment() {
-        String environment = System.getProperty("environment");
-        String browser = System.getProperty("browser");
+//        String environment = System.getProperty("environment");
+//        String browser = System.getProperty("browser");
+        String environment = System.getProperty("environment")==null? "local":System.getProperty("environment");
+        String browser = System.getProperty("browser")==null? "chrome":System.getProperty("browser");
         try {
             gridUrl = new URL("http://localhost:4444/wd/hub");
         } catch (Exception e) {
